@@ -40,6 +40,10 @@ export interface TooltipProps {
   borderColor?: string;
   // Popup arrow color
   arrowColor?: string;
+  // Popup arrow radius
+  arrowRadius?: string;
+  // Popup radius
+  tooltipRadius?: string;
   // Whether to inject the style header into the page
   // dynamically (violates CSP style-src, but is a convenient default);
   // default = true
